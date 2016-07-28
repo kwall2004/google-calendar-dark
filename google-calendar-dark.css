@@ -1,0 +1,46 @@
+@-moz-document domain("calendar.google.com") {
+body, .st-dtitle {
+    background-color: #333;
+}
+
+#onegoogbar > div:nth-child(1) > div, #vr-nav, #mainnav, #gridcontainer, .mv-container, .mv-daynames-table, .mv-event-container, .dpdiv, .chromeColor, #searchAddCalBox, .calList, .dp-weekday-selected, .dp-weekend-selected, .dp-weekend, .dp-weekendh, .dp-weekday, .calHeader {
+    background-color: inherit;
+}
+
+.st-bg-today, .st-bg-td-first, .st-bg-td-last, .st-dtitle-today {
+    background-color: black;
+}
+
+.calHeader:hover, .monthtableHeader:hover, .monthtableHeader:hover .dp-cell {
+    background-color: #eee;
+    color: black !important;
+}
+
+.st-bg-today, .st-bg-next, .st-dtitle-today, .st-dtitle-next, .st-bg-td-last {
+    border-left-color: #ddd;
+}
+
+.st-dtitle-down, .st-dtitle-today {
+    border-top-color: #ddd;
+}
+
+.st-dtitle-fr {
+    border-top: none;
+}
+
+.st-dtitle-nonmonth, .st-dtitle-today, .st-dtitle-next, .st-dtitle, .mv-daynames-table, .dp-cell, #dp_0_cur.dp-sb-cur, .calListLabel-sel, .date-top, .calHeader, .ep-dpc {
+    color: #ddd;
+}
+
+.calListRow, #vr-nav {
+    border-bottom-color: #333;
+}
+
+.gb_Rb {
+    -webkit-filter: invert();
+}
+
+.trans-strip {
+    background: none;
+}
+}
